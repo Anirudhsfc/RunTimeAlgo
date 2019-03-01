@@ -23,7 +23,7 @@ def GraphOfMyAlgo(Algo,argumentNumber,arrOfRange):
         unpackThis=[]
         while c<argumentNumber:
             unpackThis.append(argumentArray[l][i])
-            l=1
+            l=0
             c=c+1
         #print(unpackThis)
         start=float(t.time())
