@@ -1,9 +1,6 @@
 from MakeYourOwnGraph import *
 
 
-
-
-
 def F1(x,y):
     
     if x<=2:

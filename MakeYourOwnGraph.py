@@ -6,6 +6,21 @@ import matplotlib.pyplot as plt
 
 
 def GraphOfMyAlgo(Algo,argumentNumber,arrOfRange):
+    if argumentNumber!=len(arrOfRange)/2:
+        print("Please enter the range corresponding to the number of arguments")
+        exit()
+    k=0
+    diffArr=[]
+    for i in range(0,argumentNumber):
+        diff=arrOfRange[k+1]-arrOfRange[k]
+        k=k+2
+        diffArr.append(diff)
+    element=diffArr[0]
+    for i in range(0,len(diffArr)):
+        if diffArr[i]!=element:
+            print("Please enter the ranges which have the same difference")
+            exit()
+
     
     k=0
     argumentArray=[]
