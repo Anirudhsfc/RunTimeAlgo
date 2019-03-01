@@ -16,5 +16,6 @@ NumberOfArguments- an Integer value specifying the number of Arguments you have 
 ArrayOfRangeForTheArguments_Separated_By_Commas- An array of range for the arguments consisting of beginning and ending of the range. Example: If the number of Arguments are 2 and the range for the first argumet is 1-30 and the second argument is 31-60 then the Array will be [1,30,31,60].
 
 Note: user needs to inpiut the same number of values for the range for all arguments as the function has to run that many times.
+Note: The Arguments need to be of int type only
 
 For convenience I have added a UserAlgorithm.py for reference which has an Algorithm for Fibonacci Numbers and displays the graph for the values given.
